@@ -1,0 +1,27 @@
+#GIT Terminal Commands
+
+pwd 	-to get current working directory
+cd  	-to change working directory
+cd ..	-to move directory one level up
+cd folder/ -to move one level down
+mkdir  	-to make a new directory
+ls 	-list files  
+mv	-move files (example <$ mv AdvancedGIS gitsrc/.>)git 
+
+#The GIT Workflow to push
+1. git init 		-initalizes the git repository
+2. git status		- lists files in the master to commit
+3. git add . 		- adds all files in repo)
+4. git commit -m "include a short message here" - completes the commit to GIT 
+5. git push
+
+#For creating a new repo in GitHub
+5a. In GitHub.com create a new repo
+5b. git remote add origin <GitHub respository>
+6. git push 
+
+#The GIT workflow to clone/pull:
+1. Make sure you are in the correct directory
+2a. git clone <GitHub respository> (only needed for first time download)
+or
+2b. git pull (if repo has already been previously cloned)
